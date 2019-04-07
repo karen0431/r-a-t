@@ -7,7 +7,6 @@ public class randomInput {
 		System.out.println("Please choose a letter from these options: r, a, t");
 		String letter = userInputScanner.next();
 
-
 		while (!letter.equals("r") && !letter.equals("a") && !letter.equals("t")) {
 			System.out.println("Please choose a letter from these options: r, a, t");
 			letter = userInputScanner.next();
@@ -17,7 +16,6 @@ public class randomInput {
 			}
 			else 
 				System.out.println("Please try again");
-			
 		}
 	}
 }
