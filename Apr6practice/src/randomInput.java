@@ -17,5 +17,6 @@ public class randomInput {
 			else 
 				System.out.println("Please try again");
 		}
+		System.out.println("END");
 	}
 }
